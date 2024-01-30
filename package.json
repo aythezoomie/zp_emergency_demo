@@ -1,0 +1,26 @@
+{
+  "name": "webhook-ingest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app_websocket.js",
+    "main": "app.js",
+    "tunnel": "ngrok http 8080",
+    "dev": "nodemon app_webhooks.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "request-promise": "^4.2.6"
+  }
+}
